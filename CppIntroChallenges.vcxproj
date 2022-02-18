@@ -157,7 +157,6 @@
     <ClCompile Include="AbsoluteDifference.cpp" />
     <ClCompile Include="Assignments.cpp" />
     <ClCompile Include="CelsiusToFahrenHeit.cpp" />
-    <ClCompile Include="CppIntroChallenges.cpp" />
     <ClCompile Include="EvenOrOdd.cpp">
       <RuntimeLibrary>MultiThreadedDebugDll</RuntimeLibrary>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
@@ -230,6 +229,7 @@
       <SDLCheck>true</SDLCheck>
       <LinkCompiled>true</LinkCompiled>
     </ClCompile>
+    <ClCompile Include="GuessingGame.cpp" />
     <ClCompile Include="LastDigitOfANumber.cpp" />
     <ClCompile Include="Swap.cpp" />
   </ItemGroup>
