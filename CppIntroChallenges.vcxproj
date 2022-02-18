@@ -155,6 +155,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="AbsoluteDifference.cpp" />
+    <ClCompile Include="ArithmeticProgression.cpp" />
     <ClCompile Include="Assignments.cpp" />
     <ClCompile Include="CelsiusToFahrenHeit.cpp" />
     <ClCompile Include="EvenOrOdd.cpp">
@@ -231,6 +232,7 @@
     </ClCompile>
     <ClCompile Include="GuessingGame.cpp" />
     <ClCompile Include="LastDigitOfANumber.cpp" />
+    <ClCompile Include="ReverseCollection.cpp" />
     <ClCompile Include="Swap.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
