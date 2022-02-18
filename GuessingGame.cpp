@@ -6,12 +6,15 @@ using namespace std;
 
 void guessing_game()
 {
+    // TODO: Handle faulty input.
+    
     bool play = true;
 
     while (play)
     {
         int secret;
         int guess;
+        int guesses = 0;
 
         srand(time(nullptr));
 
@@ -25,14 +28,17 @@ void guessing_game()
             if (guess < secret)
             {
                 cout << "Too low. Try again." << endl;
+                guesses++;
             } else if (guess > secret)
             {
                 cout << "Too high. Try again." << endl;
+                guesses++;
             }
             else
             {
-                cout << "Correct!" << endl;
-                cout << "Wanna play a new round? (y/n)" << endl;
+                cout << "Finally!" << endl;
+                cout << "It took you a painful " << guesses << " tries." << endl;
+                cout << "Wanna play another round? (y/n)" << endl;
                 char retry;
                 cin >> retry;
                 if (retry != 'y')
