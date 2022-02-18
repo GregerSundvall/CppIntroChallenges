@@ -233,6 +233,7 @@
     <ClCompile Include="GuessingGame.cpp" />
     <ClCompile Include="LastDigitOfANumber.cpp" />
     <ClCompile Include="LinearSearch.cpp" />
+    <ClCompile Include="Palindrome.cpp" />
     <ClCompile Include="ReverseCollection.cpp" />
     <ClCompile Include="Swap.cpp" />
   </ItemGroup>
