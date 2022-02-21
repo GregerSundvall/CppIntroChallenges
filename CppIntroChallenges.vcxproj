@@ -158,6 +158,7 @@
     <ClCompile Include="ArithmeticProgression.cpp" />
     <ClCompile Include="Assignments.cpp" />
     <ClCompile Include="CelsiusToFahrenHeit.cpp" />
+    <ClCompile Include="ConstructorOrderInInheritance.cpp" />
     <ClCompile Include="EvenOrOdd.cpp">
       <RuntimeLibrary>MultiThreadedDebugDll</RuntimeLibrary>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
@@ -230,12 +231,17 @@
       <SDLCheck>true</SDLCheck>
       <LinkCompiled>true</LinkCompiled>
     </ClCompile>
+    <ClCompile Include="FibonacciNumbers.cpp" />
     <ClCompile Include="GuessingGame.cpp" />
     <ClCompile Include="LastDigitOfANumber.cpp" />
     <ClCompile Include="LinearSearch.cpp" />
+    <ClCompile Include="MinMaxSumAverage.cpp" />
+    <ClCompile Include="NthBitOfANumber.cpp" />
+    <ClCompile Include="OccurencesOfCharactersInAString.cpp" />
     <ClCompile Include="Palindrome.cpp" />
     <ClCompile Include="ReverseCollection.cpp" />
     <ClCompile Include="Swap.cpp" />
+    <ClCompile Include="SwapBitwise.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
