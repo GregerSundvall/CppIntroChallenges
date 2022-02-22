@@ -159,6 +159,7 @@
     <ClCompile Include="Assignments.cpp" />
     <ClCompile Include="CelsiusToFahrenHeit.cpp" />
     <ClCompile Include="ConstructorOrderInInheritance.cpp" />
+    <ClCompile Include="ContainsNumber.cpp" />
     <ClCompile Include="EvenOrOdd.cpp">
       <RuntimeLibrary>MultiThreadedDebugDll</RuntimeLibrary>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
@@ -235,13 +236,20 @@
     <ClCompile Include="GuessingGame.cpp" />
     <ClCompile Include="LastDigitOfANumber.cpp" />
     <ClCompile Include="LinearSearch.cpp" />
+    <ClCompile Include="LinearSearchWord.cpp" />
+    <ClCompile Include="LuckyNumber.cpp" />
     <ClCompile Include="MinMaxSumAverage.cpp" />
     <ClCompile Include="NthBitOfANumber.cpp" />
     <ClCompile Include="OccurencesOfCharactersInAString.cpp" />
     <ClCompile Include="Palindrome.cpp" />
+    <ClCompile Include="Permutations.cpp" />
     <ClCompile Include="ReverseCollection.cpp" />
     <ClCompile Include="Swap.cpp" />
     <ClCompile Include="SwapBitwise.cpp" />
+    <ClCompile Include="SwapIntermediate.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CompressString.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

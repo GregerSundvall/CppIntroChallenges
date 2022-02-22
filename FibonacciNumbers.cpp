@@ -1,5 +1,4 @@
 #include <iostream>
-#include <string>
 
 using namespace std;
 
@@ -28,8 +27,15 @@ void fibonacciNumbers()
     while (interation < iterationsToDo);
 }
 
+int fib(int n)
+{
+    if (n <= 1)
+        return n;
+    return fib(n-1) + fib(n-2);
+}
 
 void fibonacciNumbersRecursively()
 {
+    cout << fib(10) << endl;
     
 }
