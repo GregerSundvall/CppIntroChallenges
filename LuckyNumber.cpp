@@ -1,16 +1,18 @@
 #include <iostream>
+#include <string>
 
 using namespace std;
 
 
 void luckyNumber(){
     int numberToCheck = 123456456789;
+    string numberString = std::to_string(numberToCheck);
 
     bool isLucky = true;
     
-    int digits[] = {};
+    int digits[10] = {};
 
-    for (int digit : numberToCheck)
+    for (size_t digit = 0; size(numberString) -1; digit++)
     {
         if (digits[digit] > 0)
         {

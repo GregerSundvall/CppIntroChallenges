@@ -11,8 +11,8 @@ void guessing_game()
 
     while (play)
     {
-        int secret;
-        int guess;
+        int secret = 0;
+        int guess = 0;
         int guesses = 0;
 
         srand(time(nullptr));
@@ -23,6 +23,7 @@ void guessing_game()
 
         while (guess != secret)
         {
+            guesses++;
             cin >> guess;
             if (guess < secret)
             {

@@ -154,10 +154,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="AbsoluteDifference.cpp" />
-    <ClCompile Include="ArithmeticProgression.cpp" />
     <ClCompile Include="Assignments.cpp" />
-    <ClCompile Include="CelsiusToFahrenHeit.cpp" />
     <ClCompile Include="ConstructorOrderInInheritance.cpp" />
     <ClCompile Include="ContainsNumber.cpp" />
     <ClCompile Include="EvenOrOdd.cpp">

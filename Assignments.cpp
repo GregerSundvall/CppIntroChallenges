@@ -1,5 +1,10 @@
 ﻿#include <iostream>
 #include <conio.h>
+#include "AbsoluteDifference.cpp"
+#include "CelsiusToFahrenheit.cpp"
+#include "EvenOrOdd.cpp"
+#include "LastDigitOfANumber.cpp"
+#include "Swap.cpp"
 
 using namespace std;
 
@@ -14,6 +19,13 @@ int main(int argc, char* argv[])
             " 3: Even or odd",
             " 4: Last digit of a number",
             " 5: Swap",
+            " 6: Swap",
+            " 7: Swap",
+            " 8: Swap",
+            " 9: Swap",
+            " 10: Swap",
+            " 11: Swap",
+            " 12: Swap",
             " 0: Exit program"
         };
         cout << "     MAIN MENU" << endl;
@@ -26,16 +38,16 @@ int main(int argc, char* argv[])
         cout << "Input number of desired function:" << endl;
         cin >> input;
 
-        // switch (input)
-        // {
-        // case 0: return 0;
-        // case 1: AbsoluteDifference();
-        // case 2: CelsiusToFahrenheit();
-        // case 3: EvenOrOdd();
-        // case 4: LastDigitOfANumber();
-        // case 5: Swap();
-        // default: continue;
-        // }
+        switch (input)
+        {
+        case 0: return 0;
+        case 1: AbsoluteDifference();
+        case 2: CelsiusToFahrenheit();
+        case 3: EvenOrOdd();
+        case 4: LastDigitOfANumber();
+        case 5: Swap();
+        default: continue;
+        }
     }
 }
 

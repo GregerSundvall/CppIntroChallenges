@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 
 using namespace std;
 
@@ -6,12 +7,13 @@ using namespace std;
 void containsNumber()
 {
     int number = 123123;
-    int query = 5;
+    string numberString = std::to_string(number);
+    char query = '5';
     bool doesContain = false;
-    
-    for (int digit : number)
+
+    for (size_t i = 0; i < size(numberString) -1; ++i)
     {
-        if (digit == query)
+        if (numberString[i] == query)
         {
             doesContain = true;
             break;
