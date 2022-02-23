@@ -245,9 +245,6 @@
     <ClCompile Include="SwapBitwise.cpp" />
     <ClCompile Include="SwapIntermediate.cpp" />
   </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="CompressString.cpp" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

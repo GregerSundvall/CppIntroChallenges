@@ -26,22 +26,21 @@ string compress(string input)
 {
     string output;
 
-    char current = input.at(0);
+    char current;
     int count = 1;
 
     for (size_t i = 0; i < input.size(); ++i)
     {
-        if (input[i] != current)
+        current = input.at(i);
+        if (input[i+1] == current)
         {
-            output += current;
-            output += std::to_string(count);
-
-            current = input[i];
-            count = 1;
+            count++;
         }
         else
         {
-            count++;
+            output += current;
+            output += to_string(count);
+            count = 1;
         }
     }
 
@@ -51,11 +50,11 @@ string compress(string input)
 string decompress(string input)
 {
     string output;
-
-    for (size_t i = 0; i < input.size(); i + 2)
+    
+    for (size_t i = 0; i < input.size(); i += 2)
     {
-        int count = input[i+1];
-        for (int i = 1; i <= count; ++i)
+        int count = input[i+1] -'0';
+        for (int j = 0; j < count; ++j)
         {
             output += input[i];
         }
