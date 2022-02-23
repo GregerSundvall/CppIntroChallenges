@@ -10,6 +10,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CelsiusToFahrenheit", "Cels
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CompressString", "CompressString\CompressString.vcxproj", "{FBB4204C-0C55-4850-98D8-AC2A7AD9F81A}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ConstructorOrderInheritance", "ConstructorOrderInheritance\ConstructorOrderInheritance.vcxproj", "{D476D6CC-96D2-4999-B100-FBFDDB88B3B4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -58,5 +60,13 @@ Global
 		{FBB4204C-0C55-4850-98D8-AC2A7AD9F81A}.Release|Win32.Build.0 = Release|Win32
 		{FBB4204C-0C55-4850-98D8-AC2A7AD9F81A}.Release|x64.ActiveCfg = Release|x64
 		{FBB4204C-0C55-4850-98D8-AC2A7AD9F81A}.Release|x64.Build.0 = Release|x64
+		{D476D6CC-96D2-4999-B100-FBFDDB88B3B4}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D476D6CC-96D2-4999-B100-FBFDDB88B3B4}.Debug|Win32.Build.0 = Debug|Win32
+		{D476D6CC-96D2-4999-B100-FBFDDB88B3B4}.Debug|x64.ActiveCfg = Debug|x64
+		{D476D6CC-96D2-4999-B100-FBFDDB88B3B4}.Debug|x64.Build.0 = Debug|x64
+		{D476D6CC-96D2-4999-B100-FBFDDB88B3B4}.Release|Win32.ActiveCfg = Release|Win32
+		{D476D6CC-96D2-4999-B100-FBFDDB88B3B4}.Release|Win32.Build.0 = Release|Win32
+		{D476D6CC-96D2-4999-B100-FBFDDB88B3B4}.Release|x64.ActiveCfg = Release|x64
+		{D476D6CC-96D2-4999-B100-FBFDDB88B3B4}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 EndGlobal
