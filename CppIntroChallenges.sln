@@ -38,6 +38,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Palindrome", "Palindrome\Pa
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Permutations", "Permutations\Permutations.vcxproj", "{B36947A2-6626-443B-8B30-441A2EFC7998}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ReverseCollection", "ReverseCollection\ReverseCollection.vcxproj", "{AFE1086B-C356-4003-89E8-290780CA2415}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Swap", "Swap\Swap.vcxproj", "{FEA7EFBE-5CF9-4022-976E-D0B3464E13DF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -198,5 +202,21 @@ Global
 		{B36947A2-6626-443B-8B30-441A2EFC7998}.Release|Win32.Build.0 = Release|Win32
 		{B36947A2-6626-443B-8B30-441A2EFC7998}.Release|x64.ActiveCfg = Release|x64
 		{B36947A2-6626-443B-8B30-441A2EFC7998}.Release|x64.Build.0 = Release|x64
+		{AFE1086B-C356-4003-89E8-290780CA2415}.Debug|Win32.ActiveCfg = Debug|Win32
+		{AFE1086B-C356-4003-89E8-290780CA2415}.Debug|Win32.Build.0 = Debug|Win32
+		{AFE1086B-C356-4003-89E8-290780CA2415}.Debug|x64.ActiveCfg = Debug|x64
+		{AFE1086B-C356-4003-89E8-290780CA2415}.Debug|x64.Build.0 = Debug|x64
+		{AFE1086B-C356-4003-89E8-290780CA2415}.Release|Win32.ActiveCfg = Release|Win32
+		{AFE1086B-C356-4003-89E8-290780CA2415}.Release|Win32.Build.0 = Release|Win32
+		{AFE1086B-C356-4003-89E8-290780CA2415}.Release|x64.ActiveCfg = Release|x64
+		{AFE1086B-C356-4003-89E8-290780CA2415}.Release|x64.Build.0 = Release|x64
+		{FEA7EFBE-5CF9-4022-976E-D0B3464E13DF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FEA7EFBE-5CF9-4022-976E-D0B3464E13DF}.Debug|Win32.Build.0 = Debug|Win32
+		{FEA7EFBE-5CF9-4022-976E-D0B3464E13DF}.Debug|x64.ActiveCfg = Debug|x64
+		{FEA7EFBE-5CF9-4022-976E-D0B3464E13DF}.Debug|x64.Build.0 = Debug|x64
+		{FEA7EFBE-5CF9-4022-976E-D0B3464E13DF}.Release|Win32.ActiveCfg = Release|Win32
+		{FEA7EFBE-5CF9-4022-976E-D0B3464E13DF}.Release|Win32.Build.0 = Release|Win32
+		{FEA7EFBE-5CF9-4022-976E-D0B3464E13DF}.Release|x64.ActiveCfg = Release|x64
+		{FEA7EFBE-5CF9-4022-976E-D0B3464E13DF}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 EndGlobal

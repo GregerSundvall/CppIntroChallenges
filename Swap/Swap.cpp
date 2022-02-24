@@ -1,6 +1,7 @@
-﻿#include <iostream>
-#include <conio.h>
+#include <iostream>
+
 using namespace std;
+
 
 void swapByReference(int& first, int& second)
 {
@@ -11,20 +12,20 @@ void swapByReference(int& first, int& second)
 
 void SwapByPointer(int* first, int* second)
 {
-    int* temp = first;
-    first = second;
-    second = temp;
+    int* temp = *(int**)first;
+    *(int**)first = *(int**)second;
+    *(int**)second = temp;
 }
 
-void Swap()
+int main()
 {
     int firstNr;
     int secondNr;
 
     std::cout << "Swap" << std::endl;
-    std::cout << "Input first integer:" << std::endl;
+    std::cout << "Input first number:" << std::endl;
     std::cin >> firstNr;
-    std::cout << "Input second integer:" << std::endl;
+    std::cout << "Input second number:" << std::endl;
     std::cin >> secondNr;
 
     cout << "OK, numbers are " << firstNr << " and " << secondNr << endl;
@@ -35,15 +36,14 @@ void Swap()
 
     // By ref
     swapByReference(firstNr, secondNr);
-    cout << "Swapped by ref: "<< firstNr << " and " << secondNr << endl;
-
-
+    cout << "Swapped again, by ref: "<< firstNr << " and " << secondNr << endl;
+    
     // By pointers
-    SwapByPointer(&firstNr, &secondNr);
-    cout << "Swapped by pointers: "<< firstNr << " and " << secondNr << endl;
+    int* pointerFirstNr = &firstNr;
+    int* pointerSecondNr = &secondNr;
+    SwapByPointer(pointerFirstNr, pointerSecondNr);
+    cout << "Swapped again, by pointers: "<< firstNr << " and " << secondNr << endl;
 
-
-    cout << "Press Enter to exit" << endl;
-
-    _getch();
+    return 0;
 }
+
