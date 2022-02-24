@@ -1,13 +1,12 @@
-﻿#include <iostream>
-#include <conio.h>
+#include <iostream>
 #include <string>
 using namespace std;
 
-void LastDigitOfANumber()
+
+int main()
 {
     int input;
 
-    cout << "Last digit of a number" << endl;
     cout << "Input integer:" << endl;
     cin >> input;
 
@@ -26,7 +25,7 @@ void LastDigitOfANumber()
             temp /= multiplier / 10;
         }
         
-        reversed.append(std::to_string(temp));
+        reversed.append(to_string(temp));
         reversed.append(" ");
         
         if (input / multiplier != 0)
@@ -38,10 +37,8 @@ void LastDigitOfANumber()
             goOn = false;
         }
     }
-    std::cout << "Reversed numbers are " << reversed << std::endl;
+    cout << "Reversed numbers are " << reversed << endl;
     //printf("Reversed numbers are \n" + reversed);
 
-    cout << "Press Enter to exit" << endl;
-
-    _getch();
+    return 0;
 }
