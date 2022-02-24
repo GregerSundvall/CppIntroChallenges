@@ -1,26 +1,20 @@
-#include <algorithm>
-#include <conio.h>
 #include <iostream>
 #include <string>
 
 using namespace std;
 
 
-void palindrome()
+int main()
 {
     string query;
-    int q_length;
     bool is_palindrome = true;
 
-    cout << "Palindrome" << endl;
     cout << "Input a word and I'll tell you if it's a palindrome" << endl;
-
     cin >> query;
-    q_length = size(query);
 
-    for (int i = 0; i < q_length / 2; ++i)
+    for (int i = 0; i < query.length() / 2; ++i)
     {
-        if (query.at(i) != query.at(q_length) -1)
+        if (query[i] != query[query.length()-i -1])
         {
             is_palindrome = false;
             break;
@@ -36,9 +30,5 @@ void palindrome()
         cout << query << " is NOT a palindrome." << endl;
     }
 
-
-
-
-    cout << "Press Enter to exit" << endl;
-    _getch();
+    return 0;
 }

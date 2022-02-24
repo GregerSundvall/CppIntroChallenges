@@ -3,22 +3,26 @@
 using namespace std;
 
 
-void permute(string input, int firstIndex, int lastIndex);
+void permute(string& input, int firstIndex, int lastIndex);
 
-void permutations()
+int main()
 {
-    string input = "alvedon";
+    string input;
+
+    cout << "Input a word and I'll give you all permutations of this" << endl;
+    cin >> input;
+
+    cout << "Hold on tight, here it is:" << endl;
     permute(input, 0, input.size() -1);
     
-    
+    return 0;
 }
 
-
-void permute(string input, int firstIndex, int lastIndex)
+void permute(string& input, int firstIndex, int lastIndex)
 {
     if (firstIndex == lastIndex)
     {
-        cout << input << endl;
+        cout << input << " ";
     }
     else
     {
