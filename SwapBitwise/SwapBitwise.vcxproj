@@ -20,9 +20,9 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{E0727936-6A6F-40BD-9A36-CE3B770874C7}</ProjectGuid>
+    <ProjectGuid>{6768F402-FFD7-429C-9DB1-AAB6DB56E57F}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>CppIntroChallenges</RootNamespace>
+    <RootNamespace>SwapBitwise</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -153,6 +153,9 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="SwapBitwise.cpp" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

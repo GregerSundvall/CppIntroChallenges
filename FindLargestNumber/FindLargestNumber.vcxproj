@@ -20,9 +20,9 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{E0727936-6A6F-40BD-9A36-CE3B770874C7}</ProjectGuid>
+    <ProjectGuid>{4B0DCC15-F47E-4CF9-A68F-1F9653BEF1E0}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>CppIntroChallenges</RootNamespace>
+    <RootNamespace>FindLargestNumber</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -153,6 +153,9 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="FindLargestNumber.cpp" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

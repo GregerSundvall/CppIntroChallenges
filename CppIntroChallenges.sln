@@ -1,7 +1,5 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CppIntroChallenges", "CppIntroChallenges.vcxproj", "{E0727936-6A6F-40BD-9A36-CE3B770874C7}"
-EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ArithmeticProgression", "ArithmeticProgression\ArithmeticProgression.vcxproj", "{31D04420-FB52-4C57-B96D-C9295CD28513}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AbsoluteDifference", "AbsoluteDifference\AbsoluteDifference.vcxproj", "{8CBBB74F-2C21-46BD-BD81-3B0C3B3C8060}"
@@ -42,6 +40,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ReverseCollection", "Revers
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Swap", "Swap\Swap.vcxproj", "{FEA7EFBE-5CF9-4022-976E-D0B3464E13DF}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SwapBitwise", "SwapBitwise\SwapBitwise.vcxproj", "{6768F402-FFD7-429C-9DB1-AAB6DB56E57F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FindLargestNumber", "FindLargestNumber\FindLargestNumber.vcxproj", "{4B0DCC15-F47E-4CF9-A68F-1F9653BEF1E0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -50,14 +52,6 @@ Global
 		Release|x64 = Release|x64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{E0727936-6A6F-40BD-9A36-CE3B770874C7}.Debug|Win32.ActiveCfg = Debug|Win32
-		{E0727936-6A6F-40BD-9A36-CE3B770874C7}.Debug|Win32.Build.0 = Debug|Win32
-		{E0727936-6A6F-40BD-9A36-CE3B770874C7}.Debug|x64.ActiveCfg = Debug|x64
-		{E0727936-6A6F-40BD-9A36-CE3B770874C7}.Debug|x64.Build.0 = Debug|x64
-		{E0727936-6A6F-40BD-9A36-CE3B770874C7}.Release|Win32.ActiveCfg = Release|Win32
-		{E0727936-6A6F-40BD-9A36-CE3B770874C7}.Release|Win32.Build.0 = Release|Win32
-		{E0727936-6A6F-40BD-9A36-CE3B770874C7}.Release|x64.ActiveCfg = Release|x64
-		{E0727936-6A6F-40BD-9A36-CE3B770874C7}.Release|x64.Build.0 = Release|x64
 		{31D04420-FB52-4C57-B96D-C9295CD28513}.Debug|Win32.ActiveCfg = Debug|Win32
 		{31D04420-FB52-4C57-B96D-C9295CD28513}.Debug|Win32.Build.0 = Debug|Win32
 		{31D04420-FB52-4C57-B96D-C9295CD28513}.Debug|x64.ActiveCfg = Debug|x64
@@ -218,5 +212,21 @@ Global
 		{FEA7EFBE-5CF9-4022-976E-D0B3464E13DF}.Release|Win32.Build.0 = Release|Win32
 		{FEA7EFBE-5CF9-4022-976E-D0B3464E13DF}.Release|x64.ActiveCfg = Release|x64
 		{FEA7EFBE-5CF9-4022-976E-D0B3464E13DF}.Release|x64.Build.0 = Release|x64
+		{6768F402-FFD7-429C-9DB1-AAB6DB56E57F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6768F402-FFD7-429C-9DB1-AAB6DB56E57F}.Debug|Win32.Build.0 = Debug|Win32
+		{6768F402-FFD7-429C-9DB1-AAB6DB56E57F}.Debug|x64.ActiveCfg = Debug|x64
+		{6768F402-FFD7-429C-9DB1-AAB6DB56E57F}.Debug|x64.Build.0 = Debug|x64
+		{6768F402-FFD7-429C-9DB1-AAB6DB56E57F}.Release|Win32.ActiveCfg = Release|Win32
+		{6768F402-FFD7-429C-9DB1-AAB6DB56E57F}.Release|Win32.Build.0 = Release|Win32
+		{6768F402-FFD7-429C-9DB1-AAB6DB56E57F}.Release|x64.ActiveCfg = Release|x64
+		{6768F402-FFD7-429C-9DB1-AAB6DB56E57F}.Release|x64.Build.0 = Release|x64
+		{4B0DCC15-F47E-4CF9-A68F-1F9653BEF1E0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4B0DCC15-F47E-4CF9-A68F-1F9653BEF1E0}.Debug|Win32.Build.0 = Debug|Win32
+		{4B0DCC15-F47E-4CF9-A68F-1F9653BEF1E0}.Debug|x64.ActiveCfg = Debug|x64
+		{4B0DCC15-F47E-4CF9-A68F-1F9653BEF1E0}.Debug|x64.Build.0 = Debug|x64
+		{4B0DCC15-F47E-4CF9-A68F-1F9653BEF1E0}.Release|Win32.ActiveCfg = Release|Win32
+		{4B0DCC15-F47E-4CF9-A68F-1F9653BEF1E0}.Release|Win32.Build.0 = Release|Win32
+		{4B0DCC15-F47E-4CF9-A68F-1F9653BEF1E0}.Release|x64.ActiveCfg = Release|x64
+		{4B0DCC15-F47E-4CF9-A68F-1F9653BEF1E0}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 EndGlobal
