@@ -20,9 +20,9 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{E0727936-6A6F-40BD-9A36-CE3B770874C7}</ProjectGuid>
+    <ProjectGuid>{73A4B91C-0E8E-4CC6-8550-0B194CFB5B4C}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>CppIntroChallenges</RootNamespace>
+    <RootNamespace>NthBitOfANumber</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -154,13 +154,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Assignments.cpp" />
-    <ClCompile Include="Palindrome.cpp" />
-    <ClCompile Include="Permutations.cpp" />
-    <ClCompile Include="ReverseCollection.cpp" />
-    <ClCompile Include="Swap.cpp" />
-    <ClCompile Include="SwapBitwise.cpp" />
-    <ClCompile Include="SwapIntermediate.cpp" />
+    <ClCompile Include="NthBitOfANumber.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
