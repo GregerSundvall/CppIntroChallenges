@@ -20,9 +20,9 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{E0727936-6A6F-40BD-9A36-CE3B770874C7}</ProjectGuid>
+    <ProjectGuid>{56E360E6-A943-492A-A44B-4E72C38F60E2}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>CppIntroChallenges</RootNamespace>
+    <RootNamespace>LuckyNumber</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -154,16 +154,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Assignments.cpp" />
-    <ClCompile Include="MinMaxSumAverage.cpp" />
-    <ClCompile Include="NthBitOfANumber.cpp" />
-    <ClCompile Include="OccurencesOfCharactersInAString.cpp" />
-    <ClCompile Include="Palindrome.cpp" />
-    <ClCompile Include="Permutations.cpp" />
-    <ClCompile Include="ReverseCollection.cpp" />
-    <ClCompile Include="Swap.cpp" />
-    <ClCompile Include="SwapBitwise.cpp" />
-    <ClCompile Include="SwapIntermediate.cpp" />
+    <ClCompile Include="LuckyNumber.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

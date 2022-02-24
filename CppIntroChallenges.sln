@@ -26,6 +26,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LinearSearch", "LinearSearc
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LinearSearchWord", "LinearSearchWord\LinearSearchWord.vcxproj", "{4C9A5209-D772-4ACD-9B45-3E18775AC858}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LuckyNumber", "LuckyNumber\LuckyNumber.vcxproj", "{56E360E6-A943-492A-A44B-4E72C38F60E2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MinMaxSumAverage", "MinMaxSumAverage\MinMaxSumAverage.vcxproj", "{E261C89D-A771-41A5-9B91-DA8F9C863DDE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -138,5 +142,21 @@ Global
 		{4C9A5209-D772-4ACD-9B45-3E18775AC858}.Release|Win32.Build.0 = Release|Win32
 		{4C9A5209-D772-4ACD-9B45-3E18775AC858}.Release|x64.ActiveCfg = Release|x64
 		{4C9A5209-D772-4ACD-9B45-3E18775AC858}.Release|x64.Build.0 = Release|x64
+		{56E360E6-A943-492A-A44B-4E72C38F60E2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{56E360E6-A943-492A-A44B-4E72C38F60E2}.Debug|Win32.Build.0 = Debug|Win32
+		{56E360E6-A943-492A-A44B-4E72C38F60E2}.Debug|x64.ActiveCfg = Debug|x64
+		{56E360E6-A943-492A-A44B-4E72C38F60E2}.Debug|x64.Build.0 = Debug|x64
+		{56E360E6-A943-492A-A44B-4E72C38F60E2}.Release|Win32.ActiveCfg = Release|Win32
+		{56E360E6-A943-492A-A44B-4E72C38F60E2}.Release|Win32.Build.0 = Release|Win32
+		{56E360E6-A943-492A-A44B-4E72C38F60E2}.Release|x64.ActiveCfg = Release|x64
+		{56E360E6-A943-492A-A44B-4E72C38F60E2}.Release|x64.Build.0 = Release|x64
+		{E261C89D-A771-41A5-9B91-DA8F9C863DDE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E261C89D-A771-41A5-9B91-DA8F9C863DDE}.Debug|Win32.Build.0 = Debug|Win32
+		{E261C89D-A771-41A5-9B91-DA8F9C863DDE}.Debug|x64.ActiveCfg = Debug|x64
+		{E261C89D-A771-41A5-9B91-DA8F9C863DDE}.Debug|x64.Build.0 = Debug|x64
+		{E261C89D-A771-41A5-9B91-DA8F9C863DDE}.Release|Win32.ActiveCfg = Release|Win32
+		{E261C89D-A771-41A5-9B91-DA8F9C863DDE}.Release|Win32.Build.0 = Release|Win32
+		{E261C89D-A771-41A5-9B91-DA8F9C863DDE}.Release|x64.ActiveCfg = Release|x64
+		{E261C89D-A771-41A5-9B91-DA8F9C863DDE}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 EndGlobal
