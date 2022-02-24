@@ -1,8 +1,9 @@
 #include <iostream>
-#include <conio.h>
 using namespace std;
 
-void EvenOrOdd()
+
+
+int main()
 {
     int input;
 
@@ -13,8 +14,6 @@ void EvenOrOdd()
     string result = input % 2 == 0 ? "even" : "odd";
 
     cout << input << " is an " << result << " number" << endl;
-
-    cout << "Press Enter to exit" << endl;
-
-    _getch();
+    
+    return 0;
 }

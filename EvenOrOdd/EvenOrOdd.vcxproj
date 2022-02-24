@@ -20,9 +20,9 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{E0727936-6A6F-40BD-9A36-CE3B770874C7}</ProjectGuid>
+    <ProjectGuid>{33D8D046-F464-4A85-BCA9-B0586E06FB65}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>CppIntroChallenges</RootNamespace>
+    <RootNamespace>EvenOrOdd</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -154,20 +154,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Assignments.cpp" />
-    <ClCompile Include="LastDigitOfANumber.cpp" />
-    <ClCompile Include="LinearSearch.cpp" />
-    <ClCompile Include="LinearSearchWord.cpp" />
-    <ClCompile Include="LuckyNumber.cpp" />
-    <ClCompile Include="MinMaxSumAverage.cpp" />
-    <ClCompile Include="NthBitOfANumber.cpp" />
-    <ClCompile Include="OccurencesOfCharactersInAString.cpp" />
-    <ClCompile Include="Palindrome.cpp" />
-    <ClCompile Include="Permutations.cpp" />
-    <ClCompile Include="ReverseCollection.cpp" />
-    <ClCompile Include="Swap.cpp" />
-    <ClCompile Include="SwapBitwise.cpp" />
-    <ClCompile Include="SwapIntermediate.cpp" />
+    <ClCompile Include="EvenOrOdd.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

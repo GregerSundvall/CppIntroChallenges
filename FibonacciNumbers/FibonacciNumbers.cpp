@@ -2,18 +2,20 @@
 
 using namespace std;
 
+// TODO: finish recursive version
 
-
-void fibonacciNumbers()
+int main()
 {
     int iterationsToDo = 10;
-    int interation = 2;
+    cout<<"How many iterations of The Fibonacci sequence do you need?"<<endl;
+    cin>>iterationsToDo;
+    cout<<"OK, here you go:"<<endl;
     
+    int interation = 2;
     int preceding = 0;
     int current = 1;
 
-    cout << preceding << endl;
-    cout << current << endl;
+    cout << preceding<< " " << current;
     
     do
     {
@@ -21,10 +23,12 @@ void fibonacciNumbers()
         current = preceding + current;
         preceding = current - preceding;
 
-        cout << current << endl;
+        cout << " " << current;
         interation++;
     }
     while (interation < iterationsToDo);
+    
+    return 0;
 }
 
 int fib(int n)

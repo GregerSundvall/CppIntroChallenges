@@ -14,6 +14,12 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ConstructorOrderInheritance
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ContainsNumber", "ContainsNumber\ContainsNumber.vcxproj", "{200858D6-80AD-4F83-BC09-EEDAB73C2476}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EvenOrOdd", "EvenOrOdd\EvenOrOdd.vcxproj", "{33D8D046-F464-4A85-BCA9-B0586E06FB65}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FibonacciNumbers", "FibonacciNumbers\FibonacciNumbers.vcxproj", "{180FC6A9-AA93-443C-8D4A-D5D76C581768}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GuessingGame", "GuessingGame\GuessingGame.vcxproj", "{93349AD7-F19D-4E0B-AA71-F9B5380712A8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -78,5 +84,29 @@ Global
 		{200858D6-80AD-4F83-BC09-EEDAB73C2476}.Release|Win32.Build.0 = Release|Win32
 		{200858D6-80AD-4F83-BC09-EEDAB73C2476}.Release|x64.ActiveCfg = Release|x64
 		{200858D6-80AD-4F83-BC09-EEDAB73C2476}.Release|x64.Build.0 = Release|x64
+		{33D8D046-F464-4A85-BCA9-B0586E06FB65}.Debug|Win32.ActiveCfg = Debug|Win32
+		{33D8D046-F464-4A85-BCA9-B0586E06FB65}.Debug|Win32.Build.0 = Debug|Win32
+		{33D8D046-F464-4A85-BCA9-B0586E06FB65}.Debug|x64.ActiveCfg = Debug|x64
+		{33D8D046-F464-4A85-BCA9-B0586E06FB65}.Debug|x64.Build.0 = Debug|x64
+		{33D8D046-F464-4A85-BCA9-B0586E06FB65}.Release|Win32.ActiveCfg = Release|Win32
+		{33D8D046-F464-4A85-BCA9-B0586E06FB65}.Release|Win32.Build.0 = Release|Win32
+		{33D8D046-F464-4A85-BCA9-B0586E06FB65}.Release|x64.ActiveCfg = Release|x64
+		{33D8D046-F464-4A85-BCA9-B0586E06FB65}.Release|x64.Build.0 = Release|x64
+		{180FC6A9-AA93-443C-8D4A-D5D76C581768}.Debug|Win32.ActiveCfg = Debug|Win32
+		{180FC6A9-AA93-443C-8D4A-D5D76C581768}.Debug|Win32.Build.0 = Debug|Win32
+		{180FC6A9-AA93-443C-8D4A-D5D76C581768}.Debug|x64.ActiveCfg = Debug|x64
+		{180FC6A9-AA93-443C-8D4A-D5D76C581768}.Debug|x64.Build.0 = Debug|x64
+		{180FC6A9-AA93-443C-8D4A-D5D76C581768}.Release|Win32.ActiveCfg = Release|Win32
+		{180FC6A9-AA93-443C-8D4A-D5D76C581768}.Release|Win32.Build.0 = Release|Win32
+		{180FC6A9-AA93-443C-8D4A-D5D76C581768}.Release|x64.ActiveCfg = Release|x64
+		{180FC6A9-AA93-443C-8D4A-D5D76C581768}.Release|x64.Build.0 = Release|x64
+		{93349AD7-F19D-4E0B-AA71-F9B5380712A8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{93349AD7-F19D-4E0B-AA71-F9B5380712A8}.Debug|Win32.Build.0 = Debug|Win32
+		{93349AD7-F19D-4E0B-AA71-F9B5380712A8}.Debug|x64.ActiveCfg = Debug|x64
+		{93349AD7-F19D-4E0B-AA71-F9B5380712A8}.Debug|x64.Build.0 = Debug|x64
+		{93349AD7-F19D-4E0B-AA71-F9B5380712A8}.Release|Win32.ActiveCfg = Release|Win32
+		{93349AD7-F19D-4E0B-AA71-F9B5380712A8}.Release|Win32.Build.0 = Release|Win32
+		{93349AD7-F19D-4E0B-AA71-F9B5380712A8}.Release|x64.ActiveCfg = Release|x64
+		{93349AD7-F19D-4E0B-AA71-F9B5380712A8}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 EndGlobal
