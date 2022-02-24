@@ -3,8 +3,8 @@
 
 using namespace std;
 
-string compress(string input);
-string decompress(string input);
+string compress(string& input);
+string decompress(string& input);
 
 int main()
 {
@@ -22,7 +22,7 @@ int main()
     return 0;
 }
 
-string compress(string input)
+string compress(string& input)
 {
     string output;
 
@@ -47,7 +47,7 @@ string compress(string input)
     return output;
 }
 
-string decompress(string input)
+string decompress(string& input)
 {
     string output;
     
