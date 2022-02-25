@@ -44,6 +44,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SwapBitwise", "SwapBitwise\
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FindLargestNumber", "FindLargestNumber\FindLargestNumber.vcxproj", "{4B0DCC15-F47E-4CF9-A68F-1F9653BEF1E0}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SwapWithTemplates", "SwapWithTemplates\SwapWithTemplates.vcxproj", "{8981011D-94C0-4734-9CAE-C0906DDB0FC0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -228,5 +230,13 @@ Global
 		{4B0DCC15-F47E-4CF9-A68F-1F9653BEF1E0}.Release|Win32.Build.0 = Release|Win32
 		{4B0DCC15-F47E-4CF9-A68F-1F9653BEF1E0}.Release|x64.ActiveCfg = Release|x64
 		{4B0DCC15-F47E-4CF9-A68F-1F9653BEF1E0}.Release|x64.Build.0 = Release|x64
+		{8981011D-94C0-4734-9CAE-C0906DDB0FC0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8981011D-94C0-4734-9CAE-C0906DDB0FC0}.Debug|Win32.Build.0 = Debug|Win32
+		{8981011D-94C0-4734-9CAE-C0906DDB0FC0}.Debug|x64.ActiveCfg = Debug|x64
+		{8981011D-94C0-4734-9CAE-C0906DDB0FC0}.Debug|x64.Build.0 = Debug|x64
+		{8981011D-94C0-4734-9CAE-C0906DDB0FC0}.Release|Win32.ActiveCfg = Release|Win32
+		{8981011D-94C0-4734-9CAE-C0906DDB0FC0}.Release|Win32.Build.0 = Release|Win32
+		{8981011D-94C0-4734-9CAE-C0906DDB0FC0}.Release|x64.ActiveCfg = Release|x64
+		{8981011D-94C0-4734-9CAE-C0906DDB0FC0}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 EndGlobal
