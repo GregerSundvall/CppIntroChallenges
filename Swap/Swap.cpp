@@ -22,11 +22,11 @@ int main()
     int firstNr;
     int secondNr;
 
-    std::cout << "Swap" << std::endl;
-    std::cout << "Input first number:" << std::endl;
-    std::cin >> firstNr;
-    std::cout << "Input second number:" << std::endl;
-    std::cin >> secondNr;
+    cout << "Swap" << std::endl;
+    cout << "Input first number:" << std::endl;
+    cin >> firstNr;
+    cout << "Input second number:" << std::endl;
+    cin >> secondNr;
 
     cout << "OK, numbers are " << firstNr << " and " << secondNr << endl;
 
